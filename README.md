@@ -4,7 +4,6 @@
 <div style="display: flex; width: 100%;">
   <img width="900" height="auto" alt="image" src="https://github.com/user-attachments/assets/d6471aa2-8351-4254-ae81-eb79ca4285e3" style="max-height: 500px; width: auto;" />
 </div>
-&nbsp;
 
 The repository contains a convolutional neural network based on **ResNet-18** that solves **rotation-based CAPTCHA** challenges. In these CAPTCHAs, a circular region is cut from the center of an image and rotated by an unknown angle. The task is to predict the rotation angle required to realign the circular patch with its original position.
 &nbsp;
