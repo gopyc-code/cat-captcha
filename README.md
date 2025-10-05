@@ -6,15 +6,11 @@
   <img width="900" height="auto" alt="image" src="https://github.com/user-attachments/assets/7ce27247-7832-4e13-a693-00bb92368113" style="max-height: 500px; width: auto;" />
 </div>
 
-
-The repository contains a convolutional neural network based on **ResNet-18** that solves **rotation-based CAPTCHA** challenges.  
-In these CAPTCHAs, a circular region is cut from the center of an image and rotated by an unknown angle.  
-The task is to predict the rotation angle required to realign the circular patch with its original position.
+The repository contains a convolutional neural network based on **ResNet-18** that solves **rotation-based CAPTCHA** challenges. In these CAPTCHAs, a circular region is cut from the center of an image and rotated by an unknown angle. The task is to predict the rotation angle required to realign the circular patch with its original position.
 
 The network takes as input:
 - An image with a circular hole at the center  
 - The corresponding rotated circular patch  
-
 It predicts the correct rotation angle, allowing for the automatic reconstruction of the correctly aligned image.
 
 ## Dataset
