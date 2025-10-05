@@ -16,8 +16,7 @@ The network takes as input:
 It predicts the correct rotation angle, allowing for the automatic reconstruction of the correctly aligned image.
 
 ## Dataset
-The project utilizes a set of **2000 real images** from Kaggle’s open **Cats vs Dogs** [dataset](https://www.kaggle.com/datasets/abhinavnayak/catsvdogs-transformed).  
-All images are sized at **224×224 pixels**, with the radius of the patch set to **40 pixels**. The angle changes from **0 to 360 degrees**. The target variable is represented as the sine and cosine of the angle to avoid discontinuity when transitioning from **360 to 0 degrees**.
+The project utilizes a set of **2000 images** of cats and dogs from [Kaggle’s dataset](https://www.kaggle.com/datasets/abhinavnayak/catsvdogs-transformed). All images are sized at **224×224 pixels**, with the radius of the patch set to **40 pixels**. The angle changes from **0 to 360 degrees**. The target variable is represented as the sine and cosine of the angle to avoid discontinuity when transitioning from 360 to 0 degrees.
 
 ## Project Structure
 
@@ -25,4 +24,4 @@ All images are sized at **224×224 pixels**, with the radius of the patch set to
 - **cat-captcha.ipynb**: Jupyter Notebook with a step-by-step solution for the regression task.
 
 ## Results
-After training for **60 epochs**, the network demonstrates stable results, with a **Mean Absolute Error (MAE)** on the test subset of approximately **10 degrees**.
+After training for **60 epochs**, the network demonstrates stable results, with a **MAE** on the test subset of approximately **10 degrees**.
