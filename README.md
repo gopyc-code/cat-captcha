@@ -16,7 +16,7 @@ The network takes as input:
 It predicts the correct rotation angle, allowing for the automatic reconstruction of the correctly aligned image.
 
 ## Dataset
-The project utilizes a set of **2000 images** of cats and dogs from [Kaggle’s dataset](https://www.kaggle.com/datasets/abhinavnayak/catsvdogs-transformed). All images are sized at **224×224 pixels**, with the radius of the patch set to **40 pixels**. The angle changes from **0 to 360 degrees**. The target variable is represented as the sine and cosine of the angle to avoid discontinuity when transitioning from 360 to 0 degrees.
+The project utilizes **2000 images** of cats and dogs from [Kaggle’s dataset](https://www.kaggle.com/datasets/abhinavnayak/catsvdogs-transformed). All images are sized at **224×224 pixels**, with the radius of the patch set to **40 pixels**. The angle changes from **0 to 360 degrees**. The target variable is represented as the sine and cosine of the angle to avoid discontinuity when transitioning from 360 to 0 degrees.
 
 ## Project Structure
 
