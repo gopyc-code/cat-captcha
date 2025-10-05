@@ -9,7 +9,7 @@ The repository contains a convolutional neural network based on **ResNet-18** th
 
 ## Solution 
 ### Logics
-The ***input*** of the network consists of an image with a circular hole at the center and the corresponding rotated circular patch. These two images are processed separately by the CNN, after which the extracted features are combined into one tensor. Then the model ***predicts*** the correct rotation angle, allowing for the automatic reconstruction of the correctly aligned image.
+The **input** of the network consists of an image with a circular hole at the center and the corresponding rotated circular patch. These two images are processed separately by the CNN, after which the extracted features are combined into one tensor. Then the model **predicts** the correct rotation angle, allowing for the automatic reconstruction of the correctly aligned image.
 
 ### Dataset
 The project utilizes **2000 images** of cats and dogs from [Kaggle’s dataset](https://www.kaggle.com/datasets/abhinavnayak/catsvdogs-transformed). All images are sized at **224×224 pixels**, with the radius of the patch set to **40 pixels**. The angle changes from **0 to 360 degrees**. The target variable is represented as the sine and cosine of the angle to avoid discontinuity when transitioning from 360 to 0 degrees.
